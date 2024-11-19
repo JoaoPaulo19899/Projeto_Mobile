@@ -19,7 +19,7 @@ const HomeScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Bem-vindo à Home</Text>
+      <Text style={styles.title}>Welcome! :)</Text>
       <Button title="Ver Grupos" onPress={() => router.push('/groups')} />
       <Button title="Logout" onPress={handleLogout} />
     </View>
